@@ -1,9 +1,18 @@
 package applivation;
 
+import java.util.Scanner;
+
+import boardgame.Board;
+
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world!S");
+		Scanner sc = new Scanner(System.in);
+		
+		Board board = new Board(8, 8);
+		
+		
+		sc.close();
 	}
 
 }
